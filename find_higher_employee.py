@@ -20,7 +20,7 @@ Employee 表:
 解释: Joe 是唯一挣得比经理多的雇员。
 """
 
-
+import pymysql
 
 DB_CONFIG = {
     'host': 'localhost',
