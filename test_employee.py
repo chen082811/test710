@@ -34,7 +34,7 @@ class TestFindHigherEmployee(unittest.TestCase):
             (1, 'Joe', 70000, 3),
             (2, 'Henry', 80000, 4),
             (3, 'Sam', 60000, None),
-            (4, 'Max1112222, 90000, None)
+            (4, 'Max1112222', 90000, None)
         ])
         self.conn.commit()
 
